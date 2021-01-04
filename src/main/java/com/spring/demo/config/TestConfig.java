@@ -4,6 +4,6 @@ public class TestConfig {
 
     String test = "test";
     String branch = "Newbranch";
-    String thisIsNew = "NEW1";
-
+    String thisIsNew = "NEW";
+    String nodata="nodata";
 }
