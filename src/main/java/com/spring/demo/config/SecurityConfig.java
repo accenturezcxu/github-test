@@ -25,7 +25,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().passwordEncoder(new MyPasswordEncoder()).withUser("test").password("1234").roles("USER");
+        auth.inMemoryAuthentication().passwordEncoder(new MyPasswordEncoder()).withUser("test").password("12345").roles("USER");
     }
 
     public class MyPasswordEncoder implements PasswordEncoder{
