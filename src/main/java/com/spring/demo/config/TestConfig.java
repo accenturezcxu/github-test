@@ -3,5 +3,6 @@ package com.spring.demo.config;
 public class TestConfig {
 
     String test = "test";
-    String branch = "branch";
+    String branch = "Newbranch";
+
 }
